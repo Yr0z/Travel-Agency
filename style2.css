@@ -1,0 +1,72 @@
+/*---- GENERAL ----*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.orange{
+    color:#ff7A00;
+}
+
+h1 {
+    font-family:'Crete Round', serif;
+    font-size: 45px;
+    color:#444;
+}
+
+/*---- HEADER ----*/
+
+header{
+    height: 160px;
+}
+
+header h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+/*---- VIDEO ----*/
+
+#video{
+    
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 560px; 
+    height: 315px;
+  }
+
+  /*---- FOOTER ----*/
+
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: #444;
+    margin-top: 60px;
+    position: absolute;
+    bottom: 0;
+}
+
+footer h1 {
+    color:#fff;
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3px;
+    color:#777;
+
+}
